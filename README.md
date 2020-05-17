@@ -1,35 +1,28 @@
-# DiscordWebsocketTutorial
+# Discord-Pager-System Infomration 
 
-## Video
+ This is a system where I modified a Discord Websocket tutorial which the links can be found in the **Notes** category in the **README.md** file. This system makes it to were you can create a page to a user and add in details of what is needed which then sends a discord embed into the channel you select it to go to so they the user can receive the page. In order for it to work you have to do the following;
 
-👉 [**VIDEO (German)**](https://youtu.be/LxLob6-8Sl0)
+Enter your data in the `config.json`
 
----
+Then you can go to your console and do `npm test` to run the code and the website will go online `(http://127.0.0.1:5665/?token=123456)` You can change the port and token in the `config.json`!
 
-## Used Dependencies
+# Contact Me!
+ If you have any questions/suggestions or any problems with my work, feel free to contact me via email or message me on discord!
 
-```
-$ npm install discord.js express express-handlebars body-parser
-```
+  Discord: *HypnoticNoah#1111*
 
-- [discord.js](https://www.npmjs.com/package/discord.js)
-- [express](https://www.npmjs.com/package/express)
-- [express-handlebars](https://www.npmjs.com/package/express-handlebars)
-- [body-parser](https://www.npmjs.com/package/body-parser)
+  Email: *hypnoticnoah@gmail.com*
 
----
+# Dependencies 
+discord.js 
 
-## Setup
+express
 
-Get the repository and set up with:
-```
-$ git clone https://github.com/zekroTutorials/DiscordWebsocket.git .
-$ npm install
-```
+express-handlebars
 
-Then, enter your data in the `config.json`.
+body-parser
 
-Now, you can start with
-```
-$ npm test
-```
+# Notes 
+The following links is what the code is based off of since everything was modifed and edited from it!
+https://github.com/zekroTutorials/DiscordWebsocket
+https://youtu.be/LxLob6-8Sl0
