@@ -1,0 +1,33 @@
+<h1>📟 <u>Discord Pager System</u> 📟</h1>
+<iframe style="display: none" name="main" id="main"></iframe>
+<form action="/sendMessage" method="POST" target="main">
+    <input type="hidden" name="token" value="{{ token }}" />
+    <div class="buttonSelectForm">
+        <input class="inputText" type="text" name="text2" placeholder="Insert User's Name" onfocus="this.value=''"
+            required>
+        &nbsp;&nbsp;&nbsp;
+        <input class="inputText" type="text" name="text1" placeholder="Insert Your Name Here" onfocus="this.value=''"
+            required>
+        <br>
+        <br>
+        <input class="inputText" type="text" name="text" placeholder="Insert Page Here" onfocus="this.value=''"
+            required>
+        <br>
+        <br>
+        <select name="channelid">
+            <option disabled selected value>Select Channel</option>
+            {{#each chans}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+        &nbsp;&nbsp;&nbsp;
+        <button class="button1" onclick="inputReset()">Send Page</button>
+</form>
+</div>
+<script>
+    function inputReset() {
+        setTimeout(function () {
+            location.reload();
+        }, 1000);
+    }
+</script>

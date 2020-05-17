@@ -1,0 +1,7 @@
+{
+    "token": "Add Token Here",
+    "ws": {
+        "port": 5665,
+        "token": "123456"
+    }
+}
