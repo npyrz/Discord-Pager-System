@@ -11,7 +11,7 @@ Then you can go to your console and do `npm test` to run the code and the websit
 
   Discord: *Neoptunium#1111*
 
-  Email: *hypnoticnoah@gmail.com*
+  Email: *neoptunium@gmail.com*
 
 # Dependencies 
 discord.js 
